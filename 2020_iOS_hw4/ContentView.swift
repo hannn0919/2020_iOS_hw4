@@ -9,8 +9,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var myTimeData = MyTimeData()
+    
     var body: some View {
-        Text("Hello, World!")
+        TabView {
+            MyTimeList(timeData: self.myTimeData)
+                .tabItem {
+                    Image(systemName: "dollarsign.square.fill")
+                    Text("時間記錄")
+            }
+            
+            ChartView(myTimeData: self.myTimeData)
+                .tabItem {
+                    Image(systemName: "chart.bar.fill")
+                    Text("圖表統計")
+            }
+        }
     }
 }
 

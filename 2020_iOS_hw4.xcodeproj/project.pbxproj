@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65569AA424723918008699BB /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65569AA324723918008699BB /* PieChartView.swift */; };
+		65569AA624723964008699BB /* Histogramview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65569AA524723964008699BB /* Histogramview.swift */; };
+		65569AA82472F309008699BB /* CircleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65569AA72472F309008699BB /* CircleChartView.swift */; };
 		65DA5841246FAC59001D65B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA5840246FAC59001D65B3 /* AppDelegate.swift */; };
 		65DA5843246FAC59001D65B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA5842246FAC59001D65B3 /* SceneDelegate.swift */; };
 		65DA5845246FAC59001D65B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA5844246FAC59001D65B3 /* ContentView.swift */; };
 		65DA5847246FAC5D001D65B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DA5846246FAC5D001D65B3 /* Assets.xcassets */; };
 		65DA584A246FAC5D001D65B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DA5849246FAC5D001D65B3 /* Preview Assets.xcassets */; };
 		65DA584D246FAC5D001D65B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DA584B246FAC5D001D65B3 /* LaunchScreen.storyboard */; };
+		65DA585524710CAB001D65B3 /* MyTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA585424710CAB001D65B3 /* MyTime.swift */; };
+		65DA585724711017001D65B3 /* MyTimeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA585624711016001D65B3 /* MyTimeRow.swift */; };
+		65DA58592471173E001D65B3 /* MyTimeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA58582471173E001D65B3 /* MyTimeList.swift */; };
+		65DA585B2471177C001D65B3 /* MyTimeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA585A2471177C001D65B3 /* MyTimeData.swift */; };
+		65DA585D24711805001D65B3 /* MyTimeEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA585C24711805001D65B3 /* MyTimeEditor.swift */; };
+		65DA585F24712C4C001D65B3 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA585E24712C4C001D65B3 /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65569AA324723918008699BB /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		65569AA524723964008699BB /* Histogramview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Histogramview.swift; sourceTree = "<group>"; };
+		65569AA72472F309008699BB /* CircleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleChartView.swift; sourceTree = "<group>"; };
 		65DA583D246FAC59001D65B3 /* 2020_iOS_hw4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2020_iOS_hw4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DA5840246FAC59001D65B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65DA5842246FAC59001D65B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,12 @@
 		65DA5849246FAC5D001D65B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		65DA584C246FAC5D001D65B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65DA584E246FAC5D001D65B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DA585424710CAB001D65B3 /* MyTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTime.swift; sourceTree = "<group>"; };
+		65DA585624711016001D65B3 /* MyTimeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimeRow.swift; sourceTree = "<group>"; };
+		65DA58582471173E001D65B3 /* MyTimeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimeList.swift; sourceTree = "<group>"; };
+		65DA585A2471177C001D65B3 /* MyTimeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimeData.swift; sourceTree = "<group>"; };
+		65DA585C24711805001D65B3 /* MyTimeEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimeEditor.swift; sourceTree = "<group>"; };
+		65DA585E24712C4C001D65B3 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,15 @@
 				65DA5840246FAC59001D65B3 /* AppDelegate.swift */,
 				65DA5842246FAC59001D65B3 /* SceneDelegate.swift */,
 				65DA5844246FAC59001D65B3 /* ContentView.swift */,
+				65DA585A2471177C001D65B3 /* MyTimeData.swift */,
+				65DA585424710CAB001D65B3 /* MyTime.swift */,
+				65DA585624711016001D65B3 /* MyTimeRow.swift */,
+				65DA585C24711805001D65B3 /* MyTimeEditor.swift */,
+				65DA58582471173E001D65B3 /* MyTimeList.swift */,
+				65DA585E24712C4C001D65B3 /* ChartView.swift */,
+				65569AA324723918008699BB /* PieChartView.swift */,
+				65569AA524723964008699BB /* Histogramview.swift */,
+				65569AA72472F309008699BB /* CircleChartView.swift */,
 				65DA5846246FAC5D001D65B3 /* Assets.xcassets */,
 				65DA584B246FAC5D001D65B3 /* LaunchScreen.storyboard */,
 				65DA584E246FAC5D001D65B3 /* Info.plist */,
@@ -146,9 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65DA58592471173E001D65B3 /* MyTimeList.swift in Sources */,
+				65DA585D24711805001D65B3 /* MyTimeEditor.swift in Sources */,
+				65DA585524710CAB001D65B3 /* MyTime.swift in Sources */,
+				65569AA624723964008699BB /* Histogramview.swift in Sources */,
 				65DA5841246FAC59001D65B3 /* AppDelegate.swift in Sources */,
 				65DA5843246FAC59001D65B3 /* SceneDelegate.swift in Sources */,
+				65DA585F24712C4C001D65B3 /* ChartView.swift in Sources */,
+				65569AA424723918008699BB /* PieChartView.swift in Sources */,
+				65DA585B2471177C001D65B3 /* MyTimeData.swift in Sources */,
+				65DA585724711017001D65B3 /* MyTimeRow.swift in Sources */,
 				65DA5845246FAC59001D65B3 /* ContentView.swift in Sources */,
+				65569AA82472F309008699BB /* CircleChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
